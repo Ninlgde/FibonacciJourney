@@ -55,6 +55,7 @@ Thanks all！
 
 ## 各个算法结果
 ### A.正确性
+可以看出来公式法得出的结果精度上有些损失。
 ```
 === RUN   TestFibRecursion
 1.4930352e+07
@@ -78,6 +79,7 @@ PASS
 ```
 
 ### B.效率
+
 ```
 goos: darwin
 goarch: amd64
