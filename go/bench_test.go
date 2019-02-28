@@ -28,9 +28,9 @@ func BenchmarkFibMatrix(t *testing.B) {
 	}
 }
 
-func BenchmarkFibFormulaBuildIn(t *testing.B) {
+func BenchmarkFibFormulaBuiltIn(t *testing.B) {
 	for i := 0; i < t.N; i++ {
-		fib_formula_buildin(bn)
+		fib_formula_builtin(bn)
 	}
 }
 

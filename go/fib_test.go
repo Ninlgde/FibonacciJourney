@@ -23,8 +23,8 @@ func TestFibMatrix(t *testing.T) {
 	fmt.Println(fib_matrix(n))
 }
 
-func TestFibFormulaBuildIn(t *testing.T) {
-	fmt.Println(fib_formula_buildin(n))
+func TestFibFormulaBuiltIn(t *testing.T) {
+	fmt.Println(fib_formula_builtin(n))
 }
 
 func TestFibFormula(t *testing.T) {
