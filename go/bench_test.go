@@ -4,11 +4,11 @@ import "testing"
 
 func BenchmarkFibRecursion(t *testing.B) {
 	for i := 0; i < t.N; i++ {
-		fib_recursion(35)
+		fib_recursion(10)
 	}
 }
 
-var bn = 1000
+var bn = 10
 
 func BenchmarkFibCache(t *testing.B) {
 	for i := 0; i < t.N; i++ {
@@ -16,9 +16,9 @@ func BenchmarkFibCache(t *testing.B) {
 	}
 }
 
-func BenchmarkFibIterator(t *testing.B) {
+func BenchmarkFibIterate(t *testing.B) {
 	for i := 0; i < t.N; i++ {
-		fib_iterator(bn)
+		fib_iterate(bn)
 	}
 }
 

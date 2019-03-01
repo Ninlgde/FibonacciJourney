@@ -35,5 +35,5 @@ func fast_pow_mat22(x *mat22, n int) *mat22 {
 func fib_matrix(n int) float64 {
 	x := &mat22{1, 1, 1, 0}
 	r := fast_pow_mat22(x, n)
-	return r.a
+	return r.b
 }

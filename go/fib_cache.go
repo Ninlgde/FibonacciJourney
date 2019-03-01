@@ -4,8 +4,8 @@ var cache = make([]float64, 2000)
 
 func fib_recursion_cache(n int) float64 {
 	if n <= 1 {
-		cache[n] = 1
-		return 1
+		cache[n] = float64(n)
+		return float64(n)
 	}
 	if cache[n] != 0 {
 		return cache[n]

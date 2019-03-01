@@ -5,18 +5,18 @@ import (
 	"testing"
 )
 
-var n = 1000
+var n = 10
 
 func TestFibRecursion(t *testing.T) {
-	fmt.Println(fib_recursion(35))
+	fmt.Println(fib_recursion(10))
 }
 
 func TestFibCache(t *testing.T) {
 	fmt.Println(fib_cache(n))
 }
 
-func TestFibIterator(t *testing.T) {
-	fmt.Println(fib_iterator(n))
+func TestFibIterate(t *testing.T) {
+	fmt.Println(fib_iterate(n))
 }
 
 func TestFibMatrix(t *testing.T) {
