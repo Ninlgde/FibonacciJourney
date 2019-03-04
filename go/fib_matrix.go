@@ -27,7 +27,7 @@ func fast_pow_mat22(x *mat22, n int) *mat22 {
 			I = I.mul(x)
 		}
 		x = x.mul(x)
-		n >>= 1
+		n >>= 1 // 每次缩减一半，所以时间复杂度是log(n)
 	}
 	return I
 }
